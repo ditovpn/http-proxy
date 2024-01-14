@@ -12,7 +12,7 @@ Auto install Squid 3 proxy on following linux OS.
 To install, run the script
 
 ```
-wget https://raw.githubusercontent.com/devmaxxph/squid-proxy/master/squid3-install.sh -O squid3-install.sh
+wget https://raw.githubusercontent.com/ditovpn/http-proxy/main/squid3-install.sh -O squid3-install.sh
 sudo bash squid3-install.sh
 ```
 
@@ -54,7 +54,7 @@ Before you can configure squid to use muliple IP address, you need to add IP to 
 Once IP added to your server, you can configure it to use with squid proxy by running following command
 
 ```
-wget https://raw.githubusercontent.com/devmaxxph/squid-proxy/master/squid-conf-ip.sh
+wget https://raw.githubusercontent.com/ditovpn/http-proxy/main/squid-conf-ip.sh
 sudo bash squid-conf-ip.sh
 ```
 
@@ -66,4 +66,4 @@ sed -i 's/^http_port.*$/http_port 5555/g'  /etc/squid/squid.conf
 
 If you are looking for paid support, contact me
 
-https://t.me/devmaxx
+https://t.me/dmsdeveloper

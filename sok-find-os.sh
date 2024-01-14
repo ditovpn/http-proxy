@@ -1,13 +1,13 @@
 #!/bin/bash
 ############################################################
-# Find OS
-# Author: Yujin Boby
-# Email: info@serverok.in
-# Github: https://github.com/serverok/squid-proxy-installer/
-# Web: https://serverok.in/squid
+# Squid Proxy Installer
+# Author: Ian Rey Torres
+# Email: info@ianreytorres.com
+# Github: https://github.com/ditovpn/http-proxy
+# Web: https://ianreytorres.com
 ############################################################
-# For Linux Server Management, contact
-# https://serverok.in/contact
+# For paid support, contact
+# https://ianreytorres.com/contact
 ############################################################
 
 if cat /etc/os-release | grep PRETTY_NAME | grep "Ubuntu 22.04" > /dev/null; then

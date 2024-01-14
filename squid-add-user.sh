@@ -1,13 +1,13 @@
 #!/bin/bash
 ############################################################
 # Squid Proxy Installer
-# Author: Yujin Boby
-# Email: info@serverok.in
-# Github: https://github.com/serverok/squid-proxy-installer/
-# Web: https://serverok.in/squid
+# Author: Ian Rey Torres
+# Email: info@ianreytorres.com
+# Github: https://github.com/ditovpn/http-proxy
+# Web: https://ianreytorres.com
 ############################################################
 # For paid support, contact
-# https://serverok.in/contact
+# https://ianreytorres.com/contact
 ############################################################
 
 if [ `whoami` != root ]; then

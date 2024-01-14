@@ -1,6 +1,14 @@
 #!/bin/bash
-# Author: ian@dmsmarters.com
-# Web: https://www.dmsmarters.com
+############################################################
+# Squid Proxy Installer
+# Author: Ian Rey Torres
+# Email: info@ianreytorres.com
+# Github: https://github.com/ditovpn/http-proxy
+# Web: https://ianreytorres.com
+############################################################
+# For paid support, contact
+# https://ianreytorres.com/contact
+############################################################
 
 IP_ALL=$(/sbin/ip -4 -o addr show scope global | awk '{gsub(/\/.*/,"",$4); print $4}')
 

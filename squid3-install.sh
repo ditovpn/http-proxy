@@ -1,13 +1,13 @@
 #!/bin/bash
 ############################################################
 # Squid Proxy Installer
-# Author: Ian
-# Email: ian@dmsmarters.com
-# Github: https://github.com/devmaxxph/squid-proxy
-# Web: https://dmsmarters.com
+# Author: Ian Rey Torres
+# Email: info@ianreytorres.com
+# Github: https://github.com/ditovpn/http-proxy
+# Web: https://ianreytorres.com
 ############################################################
 # For paid support, contact
-# https://t.me/devmaxx
+# https://ianreytorres.com/contact
 ############################################################
 
 if [ `whoami` != root ]; then
